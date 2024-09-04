@@ -1,0 +1,36 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: "Gupter", serif;
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 5%;
+}
+.btn{
+    color: white;
+    background-color: rgb(76, 0, 0);
+    font-family: "Gupter", serif;
+    font-size: 20px;
+}
+.step{
+    display: none;
+}
+.step.ativo{
+    display: block;
+}
+#d{
+    text-align: center;
+}
+.e{
+    color: black;
+    font-size: 8px;
+}
+main{
+    max-width: 90%;
+}
+img{
+    max-width: 40%;
+}
